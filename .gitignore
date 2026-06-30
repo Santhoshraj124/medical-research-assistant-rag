@@ -1,30 +1,61 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[codz]
+*$py.class
 *.log
+*.so
 
-# Virtual Environment
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
 # Environment variables
 .env
+.envrc
 
-# Streamlit
-.streamlit/
+# Build files
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
 
-# FAISS index and uploaded papers
-data/index/
-data/papers/
-
-# VS Code
-.vscode/
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Project data
+data/index/
+data/papers/
+
+# IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
 
 # OS files
 .DS_Store
